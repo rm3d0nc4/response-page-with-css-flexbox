@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.video-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3e8ed;
+    width: 100%;
+    height: 35%;
+    margin: 8%;;
+}
+.video-content img {
+    width: 20%;
+}
+
+.bottom-bar {
+    background-color: #d1efec;
+    display: flex;
+    align-items: center;
+    padding: 0px 4%;
+}
+
+
+.icon {
+    background-color: #f2d6f6;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    width: 40%;
+}
+
+.profile .icon {
+    background-color: #e3e8ed;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.action, .name, .email, button, hr {
+    display: none;
+
+}
+
+
